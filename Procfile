@@ -1,1 +1,1 @@
-worker: python bot_horarios.py
+worker: python main.py
