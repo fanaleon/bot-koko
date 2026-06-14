@@ -12,7 +12,7 @@ from telegram.ext import (
 
 # ── Configuración ──────────────────────────────────────────────────────────────
 import os
-TOKEN = os.environ.get("TOKEN")
+TOKEN = os.environ.get("TOKEN")  # ← Se lee desde Railway Variables
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
